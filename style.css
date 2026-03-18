@@ -7,12 +7,14 @@ body {
     flex-direction: column;
     justify-content: space-between;
     min-height: 100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .projects {
-    display: flex;
     gap: 20px;
     flex-wrap: wrap;
+    display: grid;
+    place-items: center
 }
 
 .bubble {
@@ -21,6 +23,7 @@ body {
     background: rgba(143, 175, 236, 0.651);
     font-size: 40px;
     color: whitesmoke;
+    border: 2px solid powderblue;
 }
 
 header,
@@ -28,7 +31,18 @@ footer {
     display: flex;
     font-size: 20px;
     justify-content: space-between;
-    background-color: bisque;
+}
+
+.bubble {
+    width: 250px;
+    height: 250px;
+    background: rgb(137, 196, 232);
+    border-radius: 50%;
+    font-size: medium;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .top {
