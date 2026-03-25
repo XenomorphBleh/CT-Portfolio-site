@@ -47,7 +47,7 @@ a {
     background: rgba(143, 175, 236, 0.651);
     font-size: 30px;
     color: whitesmoke;
-    border: 2px solid powderblue;
+    box-shadow: rgb(162, 184, 187);
     border-radius: 50%;
     text-align: center;
     display: flex;
@@ -60,21 +60,25 @@ a {
     background-position-x: left;
 }
 
+.one {
+    flex: column;
+}
+
 .top {
     text-align: center;
-    display: grid;
     align-items: center;
     justify-content: center;
+    display: grid;
+    flex-wrap: column;
     background-color: aliceblue;
     height: 700px;
     background-image: linear-gradient(rgba(82, 65, 167, 0.5), rgba(70, 66, 66, 0.5)), url(Repost.jpeg);
     background-size: cover;
     color: white;
     font-weight: bold;
-    -webkit-mask-image: radial-gradient (black 40%, transparent 100%);
-    mask-image: radial-gradient(black 40%, transparent 100%);
+    -webkit-mask-image: radial-gradient (black 0%, transparent 100%);
+    mask-image: radial-gradient(black 0%, transparent 100%);
 }
-
 
 p {
     width: 350px;
@@ -93,7 +97,7 @@ p {
     background: rgba(143, 175, 236, 0.651);
     font-size: 30px;
     color: whitesmoke;
-    border: 2px solid powderblue;
+    border: 2px solid rgb(42, 54, 56);
     border-radius: 50%;
     text-align: center;
     display: flex;
@@ -102,9 +106,26 @@ p {
 }
 
 .bubble:hover {
-    transform: scaleY(0.9);
     transform-origin: center;
-    transition: all 0.2s ease-in-out;
-    transform: scale(0.9, 0.9);
+    transition: all 0.5s ease-in-out;
+    transform: scale(0.8, 0.8);
     color: rgb(39, 40, 81);
+}
+
+.pfp {
+    width: 120px;
+    height: 120px;
+    background-color: rgb(112, 151, 186);
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    flex-wrap: column;
+    margin-left: 110px;
+}
+
+h1,
+h2 {
+    color: whitesmoke;
 }
