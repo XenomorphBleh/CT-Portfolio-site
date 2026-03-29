@@ -15,10 +15,9 @@ body {
     gap: 20px;
     display: grid;
     place-items: center;
-    background-image: linear-gradient(rgba(149, 87, 203, 0.5), rgba(10, 16, 138, 0.5)), url(Body-bubbles.png);
     background-size: cover;
-    -webkit-mask-image: radial-gradient(black 40%, transparent 100%);
-    mask-image: radial-gradient(black 40%, transparent 100%);
+    -webkit-mask-image: radial-gradient(black 0%, transparent 95%);
+    mask-image: radial-gradient(black 0%, transparent 95%);
 }
 
 
@@ -61,7 +60,27 @@ a {
 }
 
 .one {
-    flex: column;
+    margin-left: 500px;
+}
+
+.two {
+    margin-right: 700px;
+}
+
+.three {
+    margin-left: 800px;
+}
+
+.four {
+    margin-right: 600px;
+}
+
+.five {
+    margin-left: 700px;
+}
+
+.six {
+    margin-right: 500px;
 }
 
 .top {
@@ -70,14 +89,13 @@ a {
     justify-content: center;
     display: grid;
     flex-wrap: column;
-    background-color: aliceblue;
+    background-image: url(Repost.jpeg);
     height: 700px;
-    background-image: linear-gradient(rgba(82, 65, 167, 0.5), rgba(70, 66, 66, 0.5)), url(Repost.jpeg);
     background-size: cover;
     color: white;
     font-weight: bold;
-    -webkit-mask-image: radial-gradient (black 0%, transparent 100%);
-    mask-image: radial-gradient(black 0%, transparent 100%);
+    -webkit-mask-image: radial-gradient(rgb(27, 32, 99) 0%, transparent 100%);
+    mask-image: radial-gradient(rgb(27, 32, 99) 0%, transparent 100%);
 }
 
 p {
@@ -105,6 +123,16 @@ p {
     justify-content: center;
 }
 
+.c-ss {
+    background-image: url(css-ss.png.png);
+    background-size: cover;
+}
+
+.h-tml {
+    background-image: url(html-ss.png.png);
+    background-size: cover;
+}
+
 .bubble:hover {
     transform-origin: center;
     transition: all 0.5s ease-in-out;
@@ -123,9 +151,13 @@ p {
     display: grid;
     flex-wrap: column;
     margin-left: 110px;
+    margin-bottom: 0px;
+    background-image: url("Mygitpfp.png");
+    background-size: cover;
 }
 
 h1,
 h2 {
+    margin-top: 70px;
     color: whitesmoke;
 }
