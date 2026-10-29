@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Data Analysis</title>
+</head>
+
+
+<body>
+    <div class="site-layout">
+        <div class="-header-footer">
+            <header>
+                <div> XenomorphBleh </div>
+                <nav>
+                    <a href="index.html">Home</a>
+                </nav>
+            </header>
+        </div>
+        <main>
+            <h2>Ardunio CLOCK! - THE personal reflection</h2>
+            <p>For this computing project, I was required to code a python program/file that connects and sends data to
+                my arduino micro-controller and LCD that built a physical clock with personalised segments. My main goal
+                was to create a working clock with real-time time, day, dates and temperature, accompanying it with a
+                TASTEFUL design to my liking, making it fully functional and useful for daily life.
+            </p>
+
+            <body>
+                <main>
+                    <div>
+                        <div class="wireframe"></div>
+                    </div>
+                </main>
+                <p>Connecting the python file and Arduino UNO ( software to hardware) was a new skill that I learnt as
+                    well as using my computer’s information/data on the current time/date/day to create a clock display.
+                    This went well, as there were no problems with piecing the code together and formatting it to fit
+                    the aesthetic I wanted.
+
+                    I used one API for the weather (meteo), and the rest of my information is hardcoded on either the
+                    python file or arduino code.
+
+                    However, with the clock running and the weather working well, I still wanted to add more. As a bit
+                    of an F1 fanatic I took it upon myself to try and find ways to add formula one statistics with my
+                    clock. I wanted to add a leaderboard that would display the current F1 standings and a display to
+                    the next grand prix which later became a countdown.
+
+                    I spent an entire lesson(or two) searching for a Formula 1 statistics API without success, (which
+                    absolutely infuriated me by the way as I didn’t have much done then aside from the clock). So I
+                    hardcoded the standings into my Arduino code and hardcoded the grand prix’s and their dates/times on
+                    my python file.
+
+                    Throughout my process of trial and error, I thought I had finally finished. Alas, I missed a curly
+                    bracket which caused my entire LCD to reduce into (metaphorical) ashes. That took me 30 minutes to
+                    find.
+
+                    And then my LCD started flashing, as the arduino was telling it to fill the screen every second,
+                    which I fixed but out of desperation got rid of my “waiting for PC…” line as I thought it wasn’t
+                    crucial to the project (I couldn’t care much for the loading screen).
+
+                    Then came the temperature. It was then that I had experienced another big bug in my entire project.
+                    But armed with my knowledge I managed to problem solve the code immediately, as I added more comma
+                    functions that defined the growing amount of commas I had in my python code (i’m very proud of
+                    that).
+
+                    Even though I had to completely rewrite my initial Python code so it could cleanly coexist with the
+                    new weather data, fix too many stupid bugs, forget to save my python files and struggle finding good
+                    16 bit codes for colour I got there at the end. This mini arduino project challenged me to think
+                    more critically, value interface aesthetics and hardware resources leaving me with a functional,
+                    personalized desk clock, I am proud of the work I’ve done in the amount of time I had.
+
+                </p>
+                <div class="blockdiagram"></div>
+                <footer>
+                    <div>Wow isn't this a cool footer!</div>
+                    <div>Don't contact me thx</div>
+                </footer>
